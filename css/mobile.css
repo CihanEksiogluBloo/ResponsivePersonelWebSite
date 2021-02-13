@@ -1,0 +1,54 @@
+/* Navbar Mobile */
+#navbar{
+    text-align: center;
+    width: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2vw;
+    height: fit-content;
+    flex-wrap: wrap;
+    overflow: hidden;
+
+}
+#navbar ul {
+    flex-direction: column;
+    width: 100vw;
+    justify-content: space-evenly;
+
+
+  
+}
+#navbar ul a{
+    display: flex;
+    padding: 0.75vh;
+    width: 100vw;
+    flex-direction: column;
+
+    
+
+}
+#navbar ul a:hover{
+
+        border-radius: 0;
+
+
+}
+#navbar h1{
+    flex-direction: column;
+    
+
+}
+
+/* Application Section Mobile */
+#apps .items{
+    flex-direction: column;
+    text-align: center;
+}
+#apps .items .item{
+    padding-top: 0.50vh;
+    padding-bottom: 0.50vh;
+    width: 100%;
+    text-align: center;
+}
+

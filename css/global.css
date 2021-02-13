@@ -1,0 +1,49 @@
+/* Text Options */
+.textCenter{
+    text-align: center;
+    
+}
+.headSmall {
+    font-size: 1.25rem;
+}
+.headMedium{
+    font-size: 1.50rem;
+}
+.headBig{
+    font-size: 1.75rem;
+}
+/* Colors */
+.bgDarkBlue{
+    background-color: #183661;
+}
+.bgLightBlue{
+    background-color: #385170;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-style: bold;
+}
+/* Button*/
+.btn{
+    background-color: royalblue;
+    padding: 0.75vh 0.75vw;
+    border-radius: 5%;
+}
+.btn:hover{
+    color: royalblue;
+    background-color: white;
+    border: 0.10rem solid #0072b1 ;
+}
+.btninsta{
+    background-color: #db3838;
+    padding: 0.75vh 0.75vw;
+    border-radius: 5%;
+}
+.btninsta:hover{
+    color: #db3838;
+    background-color: white;
+    border: 0.10rem solid #db3838;
+}

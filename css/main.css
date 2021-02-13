@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x:hidden;
+}
+/* Navbar */
+#navbar{
+
+    text-align: center;
+    width: 100vw;
+    color: white;
+    display: flex;
+    padding: 0 2vw;
+    height: 6vh;
+    min-height: 1.55rem;
+    overflow: hidden;
+    
+}
+
+
+#navbar ul {
+    list-style: none;
+    display: flex;
+    width: 75vw;
+    justify-content: space-evenly;
+    
+    
+    align-items: center;
+    
+    
+  
+}
+#navbar ul a{
+    display: flex;
+    padding: 0.75vh;
+    width: 15vh;
+    flex-wrap: wrap;
+
+    border-left: 0.05rem solid white;
+    
+
+    
+
+}
+#navbar ul a:hover{
+    background-color: #a2a8d3;
+    border-radius: 3%;
+    
+}
+
+h1{
+    display: flex;
+    align-items: center;
+
+}
+
+/* Home Section*/
+
+#who{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2vh;
+
+    
+}
+#who img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+
+#who .who p{
+    padding-top: .50vh;
+    padding-bottom: 2vh;
+    opacity: 0.75;
+    font-style: italic;
+}
+/* Application Section */
+#apps {
+    width: 100vw;
+    color: white;
+    padding: 1.5vh ;
+    display: block;
+    text-align: center;
+
+
+    
+   
+}
+#apps h3{
+    margin-bottom: 1rem;
+   
+}
+#apps i{
+    margin: 1vh auto;
+    
+}
+
+#apps .items{
+    display: flex;
+    justify-content: space-between;
+}
+#apps .items .item{
+    width: 33%;
+    margin-left: 1vw;
+    margin-right: 1vh;
+    border-top: 0.1rem solid white;
+}
+#apps .items .item:hover{
+    color: gray;
+}
+
+/* about */
+
+#about {
+    padding: 1vh 1vw;
+}
+.languages{
+    display: flex;
+    flex-direction: column;
+    padding: 1vh;
+    align-items: center;
+}
+.languages .lang {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+    align-items: center;
+    position: relative;
+
+    
+
+}
+.languages .lang img{
+    max-width: 25vw;
+}
+.languages .lang .langInfo p{
+    margin-left: 1rem;
+    color: white;
+    padding: 0.50rem;
+    background-color: #633ec9;
+
+    
+}
+.languages .lang .langInfo p:hover{
+    background-color: white;
+    color: #633ec9;
+
+}
+
+.languages .lang{
+    width: 5vw;
+
+
+}
+/* Footer */
+
+#social{  
+    display: flex;
+    justify-content: center;
+    padding: 0.75rem;
+    
+}
+#social ul{
+    list-style: none;
+    display: flex;
+}
+#social ul a{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 2rem;
+    
+}
+#social ul a:hover{
+    opacity: 0.7;
+    
+}
